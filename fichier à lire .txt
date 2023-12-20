@@ -1,0 +1,8 @@
+Roles 
+
+super id  => 1
+admin id  => 2
+user id   => 3  (client)
+
+
+super/uploads  ===> moved to  /uploads
