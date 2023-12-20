@@ -1,0 +1,36 @@
+/* CSS styles for the signup form */
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    text-align: center;
+    background-color: brown;
+    color: #fff;
+    font-weight: bold;
+    width: auto;
+    padding: 10px 16px;
+    border-radius: 16px;
+    display: block;
+}

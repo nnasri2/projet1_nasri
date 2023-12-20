@@ -1,0 +1,45 @@
+/* Profile form */
+.profile-form {
+    margin-top: 20px;
+}
+
+.profile-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile-form input[type="text"],
+.profile-form input[type="email"],
+.profile-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.profile-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Error/Success message */
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.error {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.success {
+    background-color: #4caf50;
+    color: #fff;
+}
